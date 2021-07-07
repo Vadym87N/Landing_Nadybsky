@@ -1,0 +1,211 @@
+@font-face {
+  font-family: Open_Sans;
+  src: url(./FONT/Open_Sans/OpenSans-Light.ttf);
+  font-weight: 300;
+}
+@font-face {
+  font-family: Open_Sans;
+  src: url(./FONT/Open_Sans/OpenSans-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: Open_Sans;
+  src: url(./FONT/Open_Sans/OpenSans-SemiBold.ttf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: Open_Sans;
+  src: url(./FONT/Open_Sans/OpenSans-Bold.ttf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: Open_Sans;
+  src: url(./FONT/Open_Sans/OpenSans-ExtraBold.ttf);
+  font-weight: 800;
+}
+	
+body {
+	font-family: Open_Sans, Arial, Helvetica, sans-serif;
+	font-weight: 300;
+}	
+	
+	
+.Base1 {
+	height: 80vh;
+	width: 100%;
+	background-color: #f8f2ef;
+		
+}
+	
+a {
+	color: white;
+	text-decoration: none;
+	font-family: Open_Sans, Arial, Helvetica, sans-serif;
+}
+	
+	
+	
+	
+	
+.picture1 {
+		position: absolute;
+		top: 180px;
+		left: 820px;
+	}
+			   
+.OURSO {
+	height:120px;
+	width: 400px;
+	font-size:50px;
+	font-weight: 900;
+	Position:absolute;
+	top:180px;
+	left: 120px;
+	font-family: Open_Sans, Arial, Helvetica, sans-serif;
+	font-weight: 300;
+}
+			
+	.EXPLANATION {height:100px;
+				  width: 370px;
+				  color: #8c8683;
+				  Position:absolute;
+				  top:300px;
+				  left: 130px;
+				  }
+				  
+	.CONTACTUS {height:30px;
+				  width: 150px;
+				  color: white;
+				  border: solid 5px red;
+				  text-align: center;
+				  Position:absolute;
+				  top:400px;
+				  left: 130px;
+				  
+				  border-bottom-left-radius: 5px;
+				  border-bottom-right-radius: 5px;
+				  border-top-left-radius: 5px;
+				  border-top-right-radius: 5px;}
+				  
+	.CONTACTUS:hover {color: white;
+			 background-color: red;}
+	.CONTACTUS:link {color: white;
+				background-color: #312b2c; }
+
+	.Head1 {height: 80px;
+		width: 80%;
+		border: solid 2px none;
+		position:absolute;
+		top:40px;
+		left:130px;
+		background-color:#312b2c;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: space-evenly;
+		align-items: center;
+		color: white;
+		
+		}
+		
+	a{color: white;}
+	
+.HOME {
+	height: 80px;
+	width:100px;
+	color: white;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	}
+	
+
+	
+		   
+	.PORTFOLIO {height: 80px;
+		   width:100px;
+		   color: white;
+		   text-align: center;}
+		   
+	.ABOUT-US {height: 80px;
+		   width:100px;
+		   color: White;
+		   text-align: center;}
+		   
+	.CONTACT{height: 80px;
+		   width:100px;
+		   color: white;
+		   text-align: center;}
+		   
+	/* a:hover {color: white; */
+			 /* background-color: red;} */
+			 
+.HOME:hover {
+	color: white;
+	background-color: red;
+}
+.HOME:active{
+	color: green;
+	background-color: aqua;
+}
+				
+	.PORTFOLIO:hover {color: white;
+			 background-color: red;}
+	.PORTFOLIO:link {color: white;
+				background-color: #312b2c;}
+				
+	.ABOUT-US:hover {color: white;
+			 background-color: red;}
+	.ABOUT-US:link {color: white;
+				background-color: #312b2c; }
+				
+	.CONTACT:hover {color: white;
+			 background-color: red;}
+	.CONTACT:link {color: green;
+				background-color: #312b2c;}
+				
+		
+		
+		
+	.PROVIDE {height:120px;
+			  width: 400px;
+			  color: black;
+			  font-weight: Bold;
+			  font-size:30px;
+			  Position: absolute;
+			  top:90vh;
+			  left:10%;}
+			  
+	.Fish1 {height:100px;
+				  width: 370px;
+				  color: #8c8683;
+				  Position:absolute;
+				  top:105vh;
+				  left: 10vw;}
+				  
+	.a {color: red;}			  
+				  
+	.Learn_More{  height:30px;
+				  width: 150px;
+				  color: red;
+				  border: solid 5px red;
+				  text-align: center;
+				  Position:absolute;
+				  top:120vh;
+				  left: 10vw;
+				  border-bottom-left-radius: 5px;
+				  border-bottom-right-radius: 5px;
+				  border-top-left-radius: 5px;
+				  border-top-right-radius: 5px;}
+				  
+	
+	
+	.Learn_More: hover {color: red;
+			 background-color: red;}
+	
+	.Learn_More: link {color: red;
+				background-color: red;}
+				
+	
+			  
